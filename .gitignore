@@ -1,0 +1,9 @@
+
+#target
+*/target/*
+target/*
+#intellij-files
+*.idea
+*.iml
+*.DS_Store
+*-pom.xml
