@@ -3,9 +3,9 @@ AWS Cognito Json Web Token Parser and Validator.
 
 `Parse and Validate ID Tokens and Access Tokens in your Web APIs`
 ----------------------------------------------------------------
-* `Since both the ID token and the access token are JSON Web Tokens (JWT), you may use any of the available JWT libraries to decode the JWT and verify the signature. For example, if your platform is Java, you could use the Nimbus JOSE and JWT library. The following procedure describes the high level steps you must implement to process the ID token and the access token on the server side.
+###### `Since both the ID token and the access token are JSON Web Tokens (JWT), you may use any of the available JWT libraries to decode the JWT and verify the signature. For example, if your platform is Java, you could use the Nimbus JOSE and JWT library. The following procedure describes the high level steps you must implement to process the ID token and the access token on the server side.
 
-* To verify a signature for ID and access tokens
+###### To verify a signature for ID and access tokens
 
 1. Download and store the JSON Web Key (JWK) for your user pool. You can locate it at https://cognito-idp.{region}.amazonaws.com/{userPoolId}/.well-known/jwks.json.
 
