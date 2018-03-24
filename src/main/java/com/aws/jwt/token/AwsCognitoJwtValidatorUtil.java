@@ -34,11 +34,6 @@ public class AwsCognitoJwtValidatorUtil {
      * @param token
      * @return JWTClaimsSet
      */
-    /**
-     * DefaultJWTProcessor throws BadJwtException if your token is expired sp please check for the same.
-     * @param token
-     * @return
-     */
     public static JWTClaimsSet validateAWSJwtToken(String token) throws ParseException, JOSEException, BadJOSEException, MalformedURLException, CustomException {
 
         /**
